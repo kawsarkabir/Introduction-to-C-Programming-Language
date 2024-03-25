@@ -1,14 +1,13 @@
 #include <stdio.h>
 int main()
 {
-    int a;
-    while (scanf("%d", & a) != EOF)
+    int n;
+    while (scanf("%d", &n) != EOF)
     {
-        if (a == 1999)
+        if (n == 1999)
         {
-            prinf("Correct\n");
+            printf("Correct\n");
             break;
-            ;
         }
         else
         {
